@@ -1,9 +1,10 @@
 name: tianguxoa
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
-jobs:  # 29305
+    - cron: '8 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,11 +12,17 @@ jobs:  # 29305
       - uses: actions/checkout@v4
       - name: tianguxoa
         env:
-          udlf341: ${{ secrets.udlf341 }}
+          cqpb5646: ${{ secrets.cqpb5646 }}
         run: |
-          echo $udlf341 | jq -r .fqrnn11316 | /bin/bash
-          echo $tcvzg98 | jq -r .can17881 | /bin/bash
-          echo $hr3056 | jq -r .se955 | /bin/bash
-          echo $vifle7 | jq -r .lr2087 | /bin/bash
-          echo $neai06860 | jq -r .gibh9 | /bin/bash
+          echo $cqpb5646 | jq -r .qoqej32501 | /bin/bash
+          echo $h3 | jq -r .t30329 | /bin/bash
+          echo $rqyxr6419 | jq -r .xdod88547 | /bin/bash
+          echo $jxka3028 | jq -r .s75 | /bin/bash
+          echo $x225 | jq -r .hhj750 | /bin/bash
+          echo $jkq1122 | jq -r .q3370 | /bin/bash
+          echo $dujdy5 | jq -r .qzcre6 | /bin/bash
+          echo $oynap0 | jq -r .xcqw80 | /bin/bash
+          echo $f8 | jq -r .uz89771 | /bin/bash
+          echo $jeb8 | jq -r .b4 | /bin/bash
+          echo $fad14 | jq -r .c0065 | /bin/bash
 
