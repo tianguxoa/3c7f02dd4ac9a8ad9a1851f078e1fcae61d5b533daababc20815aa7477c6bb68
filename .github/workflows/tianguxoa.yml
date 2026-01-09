@@ -1,9 +1,9 @@
 name: tianguxoa
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 1/6 * * *'
+    - cron: '40 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: tianguxoa
         env:
-          cqpb5646: ${{ secrets.cqpb5646 }}
+          gkb84: ${{ secrets.gkb84 }}
         run: |
-          echo $cqpb5646 | jq -r .qoqej32501 | /bin/bash
-          echo $h3 | jq -r .t30329 | /bin/bash
-          echo $rqyxr6419 | jq -r .xdod88547 | /bin/bash
-          echo $jxka3028 | jq -r .s75 | /bin/bash
-          echo $x225 | jq -r .hhj750 | /bin/bash
-          echo $jkq1122 | jq -r .q3370 | /bin/bash
-          echo $dujdy5 | jq -r .qzcre6 | /bin/bash
-          echo $oynap0 | jq -r .xcqw80 | /bin/bash
-          echo $f8 | jq -r .uz89771 | /bin/bash
-          echo $jeb8 | jq -r .b4 | /bin/bash
-          echo $fad14 | jq -r .c0065 | /bin/bash
+          echo $gkb84 | jq -r .sqa1164 | /bin/bash
+          echo $d4062 | jq -r .a5548 | /bin/bash
+          echo $konym74 | jq -r .mrnu733 | /bin/bash
+          echo $vpr000 | jq -r .lhgs70 | /bin/bash
+          echo $yx6 | jq -r .m3179 | /bin/bash
+          echo $htmha2989 | jq -r .ajtv253 | /bin/bash
+          echo $ooxy00 | jq -r .hxcmk09 | /bin/bash
+          echo $yi4 | jq -r .tvpft83 | /bin/bash
+          echo $ga91002 | jq -r .qcx91516 | /bin/bash
 
